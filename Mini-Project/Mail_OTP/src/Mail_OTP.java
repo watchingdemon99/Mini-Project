@@ -1,5 +1,6 @@
-//Implement the OOP design of OTP assignment in Java and
-//Implement Test cases for the same in Junit
+//Unit testing using Junit
+
+
 
 //To run this code first you have to download the  JavaMail API 1.4.7 
 // link to download : https://www.oracle.com/java/technologies/java-archive-eepla-downloads.html#javamail-1.4.5-oth-JPR
