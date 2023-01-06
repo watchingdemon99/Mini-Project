@@ -48,11 +48,11 @@ class Mailer{
 
 public class Mail_OTP {
 	private Date expiration;
-    static int num_of_characters = 3;
-    static int num_of_numbers = 3;
+    static int num_of_characters =0 ;
+    static int num_of_numbers = 6;
     static int length;
     static String sender_mail = "prajwaltupare@gmail.com";
-    static String Password = "lzmetvnxubglxicv";
+    static String Password = "one-time-app-password";
     static Scanner s = new Scanner(System.in);
     static String  receiver_mail ;
     static int tries;
@@ -61,7 +61,7 @@ public class Mail_OTP {
         length = num_of_characters + num_of_numbers;
         Random random = new Random();
         String number = "0123456789";
-        String alphabets = "abcdefghijklmn";
+        String alphabets = "";
         String otp = "";
 //        ShuffleString x = new ShuffleString();
         for (int i = 0; i < length; i++) {
